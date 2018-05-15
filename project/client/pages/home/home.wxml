@@ -1,2 +1,10 @@
 <!--pages/home/home.wxml-->
-<text>pages/home/home.wxml</text>
+<view>
+  <view>
+    <image src='/images/line-red.png'></image>
+    <text>{{productList[0].name}}</text>
+    <image src='/images/line-red.png'></image>
+  </view>
+  <image src='/images/discount.png'></image>
+  <image src='{{productList[0].image}}'></image>
+</view>
